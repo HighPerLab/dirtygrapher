@@ -1,0 +1,430 @@
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.910
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.232
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.209
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6491.573
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6617.885
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.033
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 2.410
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.040
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.015
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 199922.222
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 548962.934
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.14, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.907
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.230
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.208
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6501.703
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6620.690
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.018
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 1.152
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.022
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.007
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 361951.399
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 1216097.275
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.10, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.907
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.231
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.219
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6497.816
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6562.121
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.018
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 1.134
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.022
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.006
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 362837.932
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 1236014.814
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.10, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.908
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.232
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.218
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6491.068
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6568.673
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.018
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 1.131
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.021
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.007
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 377494.591
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 1119749.143
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.09, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.910
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.231
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.211
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6497.479
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6604.423
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.019
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 1.129
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.022
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.007
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 362969.639
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 1156162.433
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.09, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.906
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.243
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.210
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6434.760
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6611.235
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.047
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 2.408
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.040
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.016
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 200242.506
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 496492.544
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.12, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.906
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.233
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.217
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6488.203
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6574.374
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.019
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 1.202
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.023
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.007
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 348896.017
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 1149682.075
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.12, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.908
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.232
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.209
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6491.911
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6618.236
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.030
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 2.255
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.036
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.013
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 219350.349
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 597244.130
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.15, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.906
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.281
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.233
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6246.789
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6490.394
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.034
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 2.426
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.055
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.014
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 145787.171
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 554634.118
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.13, !!str 's']
+---
+!!str 'test':
+  !!str 'name': !!str 'async-test'
+  !!str 'size':
+  - !!int 8
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 2.909
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 1.232
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 1.231
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 6491.742
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 6497.141
+  - !!str 'MB/s'
+!!str 'host':
+  !!str 'Kernel':
+  - !!float 0.032
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 2.365
+  - !!str 'ms'
+  !!str 'To Device':
+  - !!float 0.039
+  - !!str 'ms'
+  !!str 'To Host':
+  - !!float 0.014
+  - !!str 'ms'
+  !!str 'Bandwidth (To Device)':
+  - !!float 206999.298
+  - !!str 'MB/s'
+  !!str 'Bandwidth (To Host)':
+  - !!float 553904.437
+  - !!str 'MB/s'
+!!str 'elapsed': [!!float 3.13, !!str 's']

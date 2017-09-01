@@ -1,0 +1,219 @@
+System information:
+   System: To Be Filled By O.E.M.
+Baseboard: Z77 Extreme4
+Total Mem: 30.97 GB
+      CPU: threads(4) hz(2495.367000) [ Intel(R) Core(TM) i5-3550 CPU @ 3.30GHz]
+       OS: CentOS Linux 7 (Core)
+    Linux: Linux node20 3.10.0-514.10.2.el7.x86_64 #1 SMP Fri Mar 3 00:04:05 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+      GCC: 4.9.4
+     NVCC: Cuda compilation tools, release 8.0, V8.0.44
+ CUDA Dvr: NVRM version: NVIDIA UNIX x86_64 Kernel Module  375.39  Tue Jan 31 20:47:00 PST 2017
+GCC version:  gcc version 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+
+     Date: Sat  8 Apr 21:36:25 BST 2017
+  Git Log: 8929466f1442109e8d79132f6eeaf76fb76eafd1
+
+  Compilation flags:
+    CFLAGS = -O3 -g -Wall -Wextra -std=gnu99 -mcmodel=medium
+   LDFLAGS = -Xlinker -rpath=/cm/shared/apps/hwloc/current/lib
+   -L/cm/shared/apps/hwloc/current/lib -Xlinker
+   -rpath=/nfs/modules/hwloc/1.11.3/lib -L/nfs/modules/hwloc/1.11.3/lib
+   -Xlinker -rpath=/nfs/modules/numactl/2.0.10/lib
+   -L/nfs/modules/numactl/2.0.10/lib -Xlinker
+   -rpath=/nfs/home/hv15/.local/yaml/lib -L/nfs/home/hv15/.local/yaml/lib
+    LDLIBS = -lhwloc -lnuma -lyaml
+   NVFLAGS = -O3 -g -G -restrict -Werror cross-execution-space-call -gencode
+   arch=compute_35,code=sm_35 -gencode arch=compute_50,code=sm_50 -gencode
+   arch=compute_52,code=sm_52 -gencode arch=compute_61,code=sm_61
+
+  Modules:
+   gcc/4.9.4 yaml/0.1.7 numactl/2.0.10 hwloc/1.11.3 cuda/8.0.44 
+
+Topology:
+Machine (31GB)
+  Package L#0 + L3 L#0 (6144KB)
+    L2 L#0 (256KB) + L1d L#0 (32KB) + L1i L#0 (32KB) + Core L#0 + PU L#0 (P#0)
+    L2 L#1 (256KB) + L1d L#1 (32KB) + L1i L#1 (32KB) + Core L#1 + PU L#1 (P#1)
+    L2 L#2 (256KB) + L1d L#2 (32KB) + L1i L#2 (32KB) + Core L#2 + PU L#2 (P#2)
+    L2 L#3 (256KB) + L1d L#3 (32KB) + L1i L#3 (32KB) + Core L#3 + PU L#3 (P#3)
+  HostBridge L#0
+    PCI 8086:0150
+    PCIBridge
+      PCI 10de:1024
+        GPU L#0 "card1"
+        GPU L#1 "renderD129"
+    PCIBridge
+      PCI 10de:1022
+        GPU L#2 "card2"
+        GPU L#3 "renderD130"
+    PCI 8086:0152
+      GPU L#4 "card0"
+      GPU L#5 "renderD128"
+      GPU L#6 "controlD64"
+    PCI 8086:1e31
+    PCI 8086:1e3a
+    PCI 8086:1e2d
+    PCI 8086:1e20
+    PCIBridge
+    PCIBridge
+      PCI 1b21:0612
+        Block(Disk) L#7 "sda"
+    PCIBridge
+      PCI 14e4:16b1
+        Net L#8 "enp5s0"
+    PCIBridge
+      PCIBridge
+    PCIBridge
+      PCI 1b21:1042
+    PCI 8086:1e26
+    PCI 8086:1e44
+    PCI 8086:1e02
+    PCI 8086:1e22
+
+Setting Stack-Size to unlimited...
+Runtime and Profiling for `managed_ordered_execution_sync' by [30 <-> 100]
+############################################
+# =>  SIZE 30 - ITER 100 - RUNS 10  <= #
+############################################
+## Start: Sat  8 Apr 21:36:25 BST 2017
+ RUN 1
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 2
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 3
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 4
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 5
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 6
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 7
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 8
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 9
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+ RUN 10
+-> scaling down array size by 224
+-> { 30 MB, 100 iterations, 7499776 at 4 bytes, type int, sync 0}
+-> available CUDA devices: 0
+-> { GPU 0: "Tesla K40c", 3.5 CC}
+-> { CUDA: driver = 8000, runtime = 8000}
+-> initialised timers (system and cuda)
+-> bound to Core #0 in Package #0
+-> allocated host buffer on NUMA node #0
+-> filled 29.999104 MB
+-> kernal launch {29296, 256}
+-> compute on host
+-> freed other variables
+-> reset CUDA device
+## END: Sat  8 Apr 21:37:42 BST 2017

@@ -1,0 +1,120 @@
+---
+config:
+    lformat:
+        splitchar: '-'
+        tokennum: 1
+    dump: true
+data:
+    elapsed:
+        path: ['elapsed', 0]
+        unit: ['elapsed', 1]
+        baseunit: ms
+    cth2d:
+        path: ['cuda', 'To Device', 0]
+        unit: ['cuda', 'To Device', 1]
+        baseunit: ms
+    ctd2h:
+        path: ['cuda', 'To Host', 0]
+        unit: ['cuda', 'To Host', 1]
+        baseunit: ms
+    mth2d:
+        path: ['nvprof', 'manmem', 'h2d', 'time', 0]
+        unit: ['nvprof', 'manmem', 'h2d', 'time', 1]
+        baseunit: ms
+    mtd2h:
+        path: ['nvprof', 'manmem', 'd2h', 'time', 0]
+        unit: ['nvprof', 'manmem', 'd2h', 'time', 1]
+        baseunit: ms
+    ckernel:
+        path: ['cuda', 'Kernel', 0]
+        unit: ['cuda', 'Kernel', 1]
+        baseunit: ms
+    nelapsed:
+        path: ['nvprof', 'profile', 'elapsed', 0]
+        unit: ['nvprof', 'profile', 'elapsed', 1]
+        baseunit: ms
+    hmem:
+        path: ['host', 'CudaMallocManaged', 0]
+        unit: ['host', 'CudaMallocManaged', 1]
+        baseunit: ms
+    bandh2d:
+        path: ['cuda', 'Bandwidth (To Device)', 0]
+        unit: ['cuda', 'Bandwidth (To Device)', 1]
+        baseunit: MB/s
+    bandd2h:
+        path: ['cuda', 'Bandwidth (To Host)', 0]
+        unit: ['cuda', 'Bandwidth (To Host)', 1]
+        baseunit: MB/s
+    mbandh2d:
+        path: ['nvprof', 'manmem', 'h2d', 'bandwidth', 0]
+        unit: ['nvprof', 'manmem', 'h2d', 'bandwidth', 1]
+        baseunit: MB/s
+    mbandd2h:
+        path: ['nvprof', 'manmem', 'd2h', 'bandwidth', 0]
+        unit: ['nvprof', 'manmem', 'd2h', 'bandwidth', 1]
+        baseunit: MB/s
+    mchunkh2d:
+        path: ['nvprof', 'manmem', 'h2d', 'avgchunksize', 0]
+        unit: ['nvprof', 'manmem', 'h2d', 'avgchunksize', 1]
+        baseunit: MB
+    mchunkd2h:
+        path: ['nvprof', 'manmem', 'd2h', 'avgchunksize', 0]
+        unit: ['nvprof', 'manmem', 'd2h', 'avgchunksize', 1]
+        baseunit: MB
+graph:
+    - title: 'Elapsed Time'
+      xlabel: 'Data Size (MB)'
+      ylabel: 'Time (ms)'
+      options:
+          xskip: 10
+          graph_type: 'subplot'
+      plots:
+        - data:
+            elapsed: 'median'
+    - title: 'CUDA Elapsed Time'
+      xlabel: 'Data Size (MB)'
+      ylabel: 'Time (ms)'
+      options:
+          xskip: 10
+          graph_type: 'subplot'
+      plots:
+        - data:
+            hmem: 'median'
+            cth2d: 'median'
+            mth2d: 'median'
+            ckernel: 'median'
+            ctd2h: 'median'
+            mtd2h: 'median'
+          config:
+            type: 'stackbar'
+    - title: 'Kernel Time'
+      xlabel: 'Data Size (MB)'
+      ylabel: 'Time (ms)'
+      plots:
+        - data:
+            ckernel: 'median'
+    - title: 'Managed Malloc Time'
+      xlabel: 'Data Size (MB)'
+      ylabel: 'Time (ms)'
+      plots:
+        - data:
+            hmem: 'median'
+    - title: 'Managed Memory Bandwidth'
+      xlabel: 'Data Size (MB)'
+      ylabel: 'Bandwidth (MB/s)'
+      options:
+          xskip: 3
+      plots:
+        - data:
+            bandh2d: 'median'
+            bandd2h: 'median'
+            mbandh2d: 'median'
+            mbandd2h: 'median'
+    - title: 'Managed Memory Chunck Size'
+      xlabel: 'Data Size (MB)'
+      ylabel: 'Chunk Size (MB)'
+      plots:
+        - data:
+            mchunkh2d: 'median'
+            mchunkd2h: 'median'
+...

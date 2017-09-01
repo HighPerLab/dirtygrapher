@@ -1,0 +1,690 @@
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 50.932
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.387
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 50.971
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 40.261
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.28, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6165.008531716297
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.319808
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6131.912208379523
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.241728
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.574312
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 51.143
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.456
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 51.181
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 37.220
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.25, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6162.602012261252
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.331648
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6131.088386499513
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.243776
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.569778
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 51.052
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.477
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 51.095
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 41.437
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.27, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6163.570898160312
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.32688
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6137.968939798334
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.226688
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.566296
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 50.852
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.336
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 50.889
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 37.373
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.25, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6164.611651830237
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.32176
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6137.917342667042
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.226816
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.564528
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 50.893
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.313
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 50.930
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 37.256
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.25, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6158.6126338723725
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.351296
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6132.60748031496
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.24
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.558222
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 50.971
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.441
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 51.011
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 40.827
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.26, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6163.187208923225
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.328768
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6132.388581404968
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.240544
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.558572
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 50.970
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.422
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 51.005
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 37.264
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.22, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6161.685427555762
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.33616
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6132.285575560338
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.2408
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.563281
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 50.973
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.355
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 51.010
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 37.352
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.24, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6160.424756564814
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.342368
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6135.029287151674
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.233984
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.564785
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 51.046
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.398
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 51.081
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 37.269
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.25, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6159.716667738751
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.345856
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6126.856918545743
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.254304
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.57475
+    - ms
+
+---
+!!str 'test':
+  !!str 'name': !!str 'man-test'
+  !!str 'size':
+  - !!int 98
+  - !!str 'MB'
+  !!str 'kiter': !!int 100
+!!str 'cuda':
+  !!str 'Kernel':
+  - !!float 51.013
+  - !!str 'ms'
+!!str 'host':
+  !!str 'CudaMallocManaged':
+  - !!float 10.306
+  - !!str 'ms'
+  !!str 'Kernel':
+  - !!float 51.047
+  - !!str 'ms'
+  !!str 'Local':
+  - !!float 37.287
+  - !!str 'ms'
+!!str 'elapsed': [!!float 3.26, !!str 's']
+nvprof:
+  manmem:
+    d2h:
+      avgchunksize:
+      - 167.901367
+      - KB
+      bandwidth:
+      - 6165.808953145072
+      - MB/s
+      count: 1140
+      maxchunksize:
+      - 0.996094
+      - MB
+      minchunksize:
+      - 4.0
+      - KB
+      time:
+      - 30.315872
+      - ms
+      totalsize:
+      - 186.921875
+      - MB
+    h2d:
+      avgchunksize:
+      - 1.947103
+      - MB
+      bandwidth:
+      - 6132.272700073067
+      - MB/s
+      count: 48
+      maxchunksize:
+      - 2.0
+      - MB
+      minchunksize:
+      - 384.0
+      - KB
+      time:
+      - 15.240832
+      - ms
+      totalsize:
+      - 93.460938
+      - MB
+  profile:
+    elapsed:
+    - 35.574221
+    - ms
+

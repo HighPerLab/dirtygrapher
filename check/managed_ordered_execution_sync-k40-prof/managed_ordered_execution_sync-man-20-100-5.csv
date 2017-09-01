@@ -1,0 +1,21 @@
+==32371== NVPROF is profiling process 32371, command: ./managed_ordered_execution_sync 20 100
+==32371== Profiling application: ./managed_ordered_execution_sync 20 100
+==32371== Profiling result:
+"Time(%)","Time","Calls","Avg","Min","Max","Name"
+%,ms,,ms,ms,ms,
+100.000000,7.272490,1,7.272490,7.272490,7.272490,"kernelordered(int*, int)"
+
+==32371== Unified Memory profiling result:
+"Device","Count","Avg Size","Min Size","Max Size","Total Size","Total Time",""
+"Tesla K40c (0)",11,1.734019MB,384.000000KB,2.000000MB,19.074219MB,3.108992ms,"Host To Device"
+"Tesla K40c (0)",252,155.015625KB,4.000000KB,0.996094MB,38.148438MB,6.200192ms,"Device To Host"
+Total CPU Page faults: 126
+
+==32371== API calls:
+"Time(%)","Time","Calls","Avg","Min","Max","Name"
+%,ms,,ms,ms,ms,
+57.294971,0.409105,1,0.409105,0.409105,0.409105,"cuDeviceTotalMem"
+38.280164,0.273333,91,0.003003,0.000209,0.091534,"cuDeviceGetAttribute"
+3.530089,0.025206,1,0.025206,0.025206,0.025206,"cuDeviceGetName"
+0.694086,0.004956,3,0.001652,0.000334,0.003913,"cuDeviceGetCount"
+0.200691,0.001433,3,0.000477,0.000238,0.000810,"cuDeviceGet"
